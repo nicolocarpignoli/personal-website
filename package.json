@@ -1,0 +1,31 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {},
+  "main": "public/index.js",
+  "module": "public/index.js",
+  "style": "public/index.scss",
+  "scripts": {
+    "build": "rna build --production",
+    "watch": "rna build --watch",
+    "test": "rna lint + unit",
+    "lint": "rna lint",
+    "start": "yarn install --ignore-scripts && rna build --watch",
+    "prepublish": "yarn run build"
+  },
+  "license": "MIT",
+  "author": "Nicolò Carpignoli",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nicolocarpignoli/personal-website.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "stylelint": "^9.9.0",
+    "stylelint-order": "^2.0.0"
+  }
+}
