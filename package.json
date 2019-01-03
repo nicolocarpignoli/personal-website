@@ -1,0 +1,20 @@
+{
+  "name": "nicolo-carpignoli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolocarpignoli/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolocarpignoli/personal-website/issues"
+  },
+  "homepage": "https://github.com/nicolocarpignoli/personal-website#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
