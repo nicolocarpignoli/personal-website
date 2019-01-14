@@ -18,7 +18,7 @@ internal-aside__link button {
     border: none;
 }
 
-.aside div{
+.aside div {
     margin: 1em 1em 0 1em;
     text-decoration: none;
     color: black;
@@ -35,7 +35,7 @@ internal-aside__link button {
 
 .aside div:hover{
    color: white;
-   background-color: black;
+   background-color: #444;
 }
 
 .internal.aside {
@@ -53,30 +53,44 @@ body {
 
 a[data-ref='github']:hover::after {
     padding: 2em;
+    font-style: normal;
     content: 'Github profile. Open source personal projects and other that I contributed to.';
 }
 
 a[data-ref='linkedin']:hover::after {
     padding: 2em;
+    font-style: normal;
     content: 'Linkedin profile. Summary of my experiences and general job informations.';
 }
 
 a[data-ref='medium']:hover::after {
     padding: 2em;
+    font-style: normal;
     content: 'On this you can find all my Medium stories. Sometimes I write some article about technology and open source libraries (i.e. Web AR, Web Accessibility and so on). Some articles were translated to Italian.';
 }
 
 a[data-ref='blog']:hover::after {
-    padding: 2em;
+    padding: 1em;
+    font-style: normal;
     content: 'Personal Reading Blog (in Italian language). It contains all books I have read regarding Technology, Computer Science and Science in general.';
 }
 
 div[data-ref='cv']:hover::after {
-    padding: 2em;
-    content: 'Click to download my Curriculum Vitae in Italian Language.';
+    padding: 1em;
+    font-style: normal;
+    cursor: pointer;
+    content: 'Click to download.';
 }
 
 div[data-ref='bio']:hover::after {
-    padding: 2em;
+    padding: 1em;
+    font-style: normal;
+    cursor: pointer;
     content: 'I was born in 1992 in Fano, a little city with a nice sea view in the centre of Italy. I always had passion for books and Computer Science. This vocation easily brought me towards ICT studies, choosing the Engineering path. I soon discovered that I also love to design things well as much as I love build working things. I finished senior high school in Business and Computer Science specialization in 2010. I got certified in QCER B2 English by Trinity College of London. In 2014 I graduated in ICT Engineering at the University of Bologna, after 3 years of studies in Cesena. During this 3 years I developed some of my personal projects for passion and for studies purposes. In that period I had a brief internship and worked with Symfony framework and PHP technology. My first level degree thesis was about Agent Programming. On 2014 I moved to Bologna and I graduated in Computer Science Engineering Master Degree after 2 years. In these years I also work as freelancer developer in some projects for italian startups. My master degree thesis was the result of a 6 months internship at an Italian Software House. My thesis was a project called MOOVBIT, an Internet of Things architecture proposal and a concrete prototype that applied this architecture in the Sport business. I constantly study. Last topics I covered myself are Agile methodologies, with special focus in Scrum and Extreme Programming, Software Engineering and Refactoring. I also read a lot and I like to collect all my technical readings on my blog called JARBLO. I recently got certified as Scrum Master by International Scrum Institute. At the time of this writing (April 2018) I am currently working as Software Engineer in a Design and Software company named Chialab. I work as Web Software Developer building web-apps and mobile-apps. I also enjoy exploring new and more fascinating web trends such as Web AR, Service Workers and Web Accessibility. I mantain some Github Open Source projects (i.e. AR.js) and writing several Medium stories about tech.';
+}
+
+.internal.aside a {
+    padding: 1em;
+    color: black;
+    text-decoration: none;
 }
