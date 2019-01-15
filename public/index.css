@@ -1,8 +1,11 @@
+@font-face {
+    font-family: 'FF Franziska';
+    src: url('../fonts/franziska.woff') format('woff');
+}
+
 body {
-    font-style: oblique;
-    font-family: monospace;
-    font-weight: 500;
-    font-size: 1.2em;
+    font-family: 'FF Franziska';
+    font-size: 1.25em;
 }
 
 .external-aside__link a {
