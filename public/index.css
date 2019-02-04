@@ -96,7 +96,8 @@ a:hover {
 }
 
 .blinking {
-
+    margin-left: -10px;
+    
 }
 
 .blinking:after {
