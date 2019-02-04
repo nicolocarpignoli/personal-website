@@ -16,10 +16,10 @@ body {
 .content {
     display: flex;
     padding: 0.5em;
-    justify-content: space-between;
     flex: 1;
     background-color: black;
     color: lime;
+    flex-direction: column;
 }
 
 .buttons-container {
@@ -60,20 +60,15 @@ internal-aside__link button {
 }
 
 .aside * {
-    padding-bottom: .75em;
+    margin-bottom: .75em;
     text-decoration: none;
     width: fit-content;
     height: fit-content;
 }
 
 .aside {
-    padding: 1em;
     display: flex;
     flex-direction: column;
-}
-
-.internal.aside {
-    align-items: flex-end;
 }
 
 .internal.aside a {
@@ -95,3 +90,30 @@ internal-aside__link button {
     }
 }
 
+a:hover {
+    background-color: lime;
+    color: black;
+}
+
+.blinking {
+
+}
+
+.blinking:after {
+    content: '';
+    width: 10px;
+    height: 20px;
+    background-color: lime;
+    opacity: 0;
+    display: inline-block;
+    animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -21,6 +21,12 @@
         </div>
         <div class="content">
             <div class="external aside">
+                <div class="external aside">
+                        Last login:
+                        <script> document.write(new Date().toLocaleString('en-US', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false })); </script>
+                        on ttys003
+                        nick-:~ nick$
+                </div>
                 <div class="external-aside__link">
                     <a aria-label="Github profile" data-ref="github" href="https://github.com/nicolocarpignoli">Github</a>
                 </div>
@@ -36,7 +42,10 @@
             </div>
             <div class="internal aside">
                 <a aria-label="Rèsumè download" tabindex="0" data-ref="cv" href="//TODO" class="internal-aside__link">Rèsumè</a>
-                <a aria-label="Mail me" data-ref="mail" href="mailto:nicolocarpignoli@gmail.com" class="internal-aside__link">Contact me</a>
+                <div>
+                    <a aria-label="Mail me" data-ref="mail" href="mailto:nicolocarpignoli@gmail.com" class="internal-aside__link">Contact me</a>
+                    <span class="blinking"></span>
+                </div>
             </div>
     </div>
 </body>
