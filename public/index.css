@@ -88,6 +88,11 @@ internal-aside__link button {
     color: inherit;
 }
 
+.internal.aside a:hover {
+    background-color: lime;
+    color: black;
+}
+
 .title {
     height: 0.5em;
     color: grey;
@@ -110,7 +115,7 @@ a:hover {
 .blinking:after {
     content: '';
     width: 10px;
-    height: 20px;
+    height: 23px;
     background-color: lime;
     opacity: 0;
     display: inline-block;
