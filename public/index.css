@@ -60,10 +60,22 @@ internal-aside__link button {
 }
 
 .aside * {
-    margin-bottom: .75em;
+    margin-top: .75em;
     text-decoration: none;
     width: fit-content;
     height: fit-content;
+}
+
+.terminal {
+    margin: 0;
+}
+
+.terminal-container {
+    display: flex;
+}
+
+.terminal-container > * {
+    margin: 0;
 }
 
 .aside {
@@ -93,11 +105,6 @@ internal-aside__link button {
 a:hover {
     background-color: lime;
     color: black;
-}
-
-.blinking {
-    margin-left: -10px;
-    
 }
 
 .blinking:after {
