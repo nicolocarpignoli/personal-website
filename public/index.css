@@ -1,6 +1,15 @@
 body {
     font-family: Hack, monospace;
     font-size: 1.25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/background.jpg);
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .main {
