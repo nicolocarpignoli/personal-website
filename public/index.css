@@ -125,7 +125,7 @@ a:hover {
 .blinking:after {
     content: '';
     width: 10px;
-    height: 23px;
+    height: 16px;
     background-color: lime;
     opacity: 0;
     display: inline-block;
