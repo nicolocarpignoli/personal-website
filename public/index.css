@@ -78,6 +78,7 @@ internal-aside__link button {
 
 .terminal {
     margin: 0;
+    max-width: 28em;
 }
 
 .terminal-container {
@@ -109,6 +110,10 @@ internal-aside__link button {
     font-size: 1em;
     margin-top: -20px;
     margin-left: 250px;
+}
+
+.bio {
+    margin-top: 1em;
 }
 
 @media only screen and (max-width: 450px) {
